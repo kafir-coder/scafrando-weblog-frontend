@@ -22,10 +22,27 @@ export const Container = styled.div`
     margin: 0;
     padding: 0 !important;
   `}
+
+  ${props => props.social && css`
+    display: flex;
+    background-color: transparent;
+    width: 10vw;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  `}
+
+  ${props => props.collumn && css`
+    display: flex;
+    flex-direction: column;  
+  `}
 `;
 
 export const Text = styled.span`
-  font-family: 'Fira Mono';
+  font-family: 'Avocado';
   ${props => props.logo && css`
     font-size: 2rem;
     display: block;
