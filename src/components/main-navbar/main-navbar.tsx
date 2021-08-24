@@ -1,4 +1,4 @@
-import {Container, Text, List, Anchor} from './styles'
+import {Container, Text, List, Anchor} from '../styles'
 import Link from 'next/link'
 export function MainNavBar (props) {
   return (
