@@ -21,6 +21,7 @@ export const Container = styled.div`
     justify-content: center;
     margin: 0;
     padding: 0 !important;
+    font-family: 'From Cartoon Blocks' !important;
   `}
 
   ${props => props.social && css`
@@ -42,11 +43,12 @@ export const Container = styled.div`
 `;
 
 export const Text = styled.span`
-  font-family: 'Avocado';
+  font-family: 'Fira Mono';
   ${props => props.logo && css`
-    font-size: 2rem;
+    font-family: 'From Cartoon Blocks' !important;
+    font-size: 2.5rem;
     display: block;
-    color: #1c1c1c;
+    color: #d0b210;
   `}
   ${props => props.menu_item && css`
       margin: 0 10px;
